@@ -1,7 +1,7 @@
 {
     "name": "@projectyurei/void-sdk",
     "version": "0.1.0",
-    "description": "Void SDK - Confidential DeFi Layer for Solana powered by Arcium",
+    "description": "Void SDK - Confidential DeFi Layer for Solana powered by - Arcium Solana Privacy Hack 2026",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
