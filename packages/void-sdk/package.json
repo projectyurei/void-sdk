@@ -1,5 +1,5 @@
 {
-    "name": "@yurei/void-sdk",
+    "name": "@projectyurei/void-sdk",
     "version": "0.1.0",
     "description": "Void SDK - Confidential DeFi Layer for Solana powered by Arcium",
     "main": "dist/index.js",

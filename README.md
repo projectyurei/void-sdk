@@ -72,7 +72,7 @@ void-sdk/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/void-sdk.git
+git clone https://github.com/projectyurei/void-sdk.git
 cd void-sdk
 
 # Build MPC circuits and Anchor program
@@ -97,7 +97,7 @@ anchor deploy
 ## 💡 Usage
 
 ```typescript
-import { VoidClient } from '@yurei/void-sdk';
+import { VoidClient } from '@projectyurei/void-sdk';
 
 const client = new VoidClient({
   programId: '9oqbvYkKhFA2EFrJKGujRqzHnCRGuGnzTD6dyXuxo6oo',
