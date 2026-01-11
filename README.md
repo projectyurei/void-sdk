@@ -1,4 +1,4 @@
-# 🌑 Void SDK
+# Void SDK
 
 **The Confidential DeFi Layer for Solana** — Powered by [Arcium](https://arcium.com) MPC
 
@@ -6,25 +6,25 @@
 [![Arcium](https://img.shields.io/badge/Arcium-MPC-00D4AA?style=flat-square)](https://arcium.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-> **Privacy Hackathon 2026 Submission**  
-> 🎯 Arcium Prize Track • 🔧 Privacy Tooling Track
+> **Solana Privacy Hack 2026 Submission**  
+> Arcium Prize Track | Privacy Tooling Track
 
 ---
 
-## 📖 Overview
+## Overview
 
 Void SDK enables **private DeFi operations** on Solana using Arcium's Multi-Party Computation (MPC) network. Unlike traditional solutions that only hide transfer amounts, Void SDK provides:
 
-- 🔐 **Encrypted Account State** — Balances stored as ciphertext on-chain
-- 🌊 **Confidential Swaps** — Trade without revealing amounts or slippage
-- 👻 **Private Agent Actions** — AI agents can execute strategies without leaking alpha
+- **Encrypted Account State** — Balances stored as ciphertext on-chain
+- **Confidential Swaps** — Trade without revealing amounts or slippage
+- **Private Agent Actions** — AI agents can execute strategies without leaking alpha
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    TypeScript SDK                           │
-│                  @yurei/void-sdk                            │
+│                  @projectyurei/void-sdk                     │
 └─────────────────────┬───────────────────────────────────────┘
                       │
 ┌─────────────────────▼───────────────────────────────────────┐
@@ -40,7 +40,7 @@ Void SDK enables **private DeFi operations** on Solana using Arcium's Multi-Part
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 void-sdk/
@@ -58,7 +58,7 @@ void-sdk/
 └── app/                       # Demo UI (Next.js)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -94,7 +94,7 @@ solana config set --url devnet
 anchor deploy
 ```
 
-## 💡 Usage
+## Usage
 
 ```typescript
 import { VoidClient } from '@projectyurei/void-sdk';
@@ -113,7 +113,7 @@ await client.initPrivateAccount();
 // await client.transferPrivate(recipient, amount);
 ```
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Encrypted Instructions (MPC Circuits)
 
@@ -150,14 +150,14 @@ pub mod void_protocol {
 }
 ```
 
-## 🎯 Hackathon Tracks
+## Hackathon Tracks
 
 | Track | Prize | How We Qualify |
 |-------|-------|----------------|
 | **Arcium Prize** | $10,000 | End-to-end private DeFi with MPC |
 | **Privacy Tooling** | $15,000 | Developer SDK abstracting Arcium complexity |
 
-## 📋 Requirements Checklist
+## Requirements Checklist
 
 - [x] Open source code
 - [x] Solana integration with Arcium
@@ -165,23 +165,23 @@ pub mod void_protocol {
 - [ ] Demo video (3 min max)
 - [x] Documentation
 
-## 🛣️ Roadmap
+## Roadmap
 
 - [x] **Phase 1**: Core encrypted account structure
 - [ ] **Phase 2**: Deposit/Withdraw with C-SPL tokens
 - [ ] **Phase 3**: Confidential swaps
 - [ ] **Phase 4**: SDK npm package release
 
-## 👥 Team
+## Team
 
 **Project Yurei** — Building the Dark DeFi infrastructure
 
-## 📄 License
+## License
 
 MIT License — See [LICENSE](LICENSE) for details.
 
 ---
 
 <p align="center">
-  <b>🌑 Privacy is not a feature. It's a right.</b>
+  <b>Privacy is not a feature. It's a right.</b>
 </p>
